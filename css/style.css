@@ -14,7 +14,7 @@ header{
   background: transparent !important;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 10px;
+  margin: 10px 10px 0px 10px;
 }
 
 .navbar-brand {
