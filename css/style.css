@@ -1,0 +1,148 @@
+html ,
+body,
+header,
+#intro {
+  height: 1000px;
+}
+
+header{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.navbar{
+  background: transparent !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  padding-right: 450px;
+}
+
+.navbar-nav li a{
+  color: rgba(255,255,255, 0.7) !important;
+}
+
+.navbar-nav li a:hover{
+  color: white !important;
+}
+
+.navbar-nav .dropdown-menu a {
+  color: black !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.btn {
+  margin-right: 10px;
+  height: 60px;
+  width: 150px;
+  border-radius: 0px;
+  font-size: 16px;
+  background-color: #EC418B !important;
+  border-color: #EC418B !important;
+}
+
+#intro {
+background: url(../images/background.png)
+no-repeat center center fixed;
+background-size: cover;
+}
+
+
+.counter {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 80px;
+  font-weight: bold;
+  padding-top: 250px;
+  line-height: 20px !important;
+}
+
+p{
+  line-height: 110px;
+}
+
+ #days_num {
+  color: #FEF350 !important;
+}
+
+#hour_num {
+  color: #F28A3C !important;
+}
+
+#minu_num {
+  color: #46B8F8 !important;
+}
+
+#seco_num {
+  color: #8EC63F !important;
+}
+
+.rotated {
+  font-size: 25px !important;
+  font-weight: normal;
+  color: white !important;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.conference {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 122px;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 30px;
+}
+
+#dos {
+  color: #EC418B !important;
+}
+
+#cero {
+  color: #F28A3C !important;
+}
+
+#uno {
+  color: #46B8F8 !important;
+}
+
+i{
+  color: #F28A3C;
+}
+
+.info {
+  text-align: center;
+  color: white;
+  font-size: 27px;
+  line-height: 10px;
+}
+
+#bt_now {
+  margin-left: 450px;
+  margin-top: 60px;
+  width: 200px;
+  height: 65px;
+}
+
+/* Shrink */
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
